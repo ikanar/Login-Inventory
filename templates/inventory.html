@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Current Inventory</title>
+    </head>
+    <body>
+        <ul>
+            {{range .}}
+                <li>Name: {{.}}</li>
+                <li>Description: {{.}}</li>
+                <li>Quantity: {{.}}</li>
+            {{end}}
+        </ul>
+    </body>
+
+
+</html>
